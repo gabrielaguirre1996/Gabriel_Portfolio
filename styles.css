@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+  background-color: #020202;
+  font-family: 'Open Sans Condensed', sans-serif;
+  //overflow: hidden;
+}
+
+li {
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #96d7ff;
+}
+
+p {
+  text-align: left;
+}
+
+.padding {
+  padding: 80px 0;
+  padding-top: 110px;
+}
+
+.padding img {
+  width: 100%;
+}
+
+#butte {
+  border-radius: 10%;
+}
+
+.container {
+  color: #ffffff;
+}
+
+.navbar {
+  display: inline-block;
+  font-size: 15px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-default {
+  margin : 0 !important;
+  border: 0 !important;
+}
+
+.navbar-nav li a {
+  color: #ffffff;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a.active {
+  color: #96d7ff;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jumbotron {
+  opacity: .75;
+  color: #000000;
+  border: 4px solid #000000;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+#home {
+  background: url(images/wind.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#separator1 {
+  background: url(images/sky.jpg) no-repeat center center fixed;
+  display: table;
+  height: 75%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#separator2 {
+  background: url(images/mac.jpg) no-repeat center center fixed;
+  display: table;
+  height: 75%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#contact {
+  height: 415px;
+}
+
+.project_title {
+  color: #ffffff;
+}
+
+.see_more {
+  color: #ffffff;
+}
+
+.contact_title {
+  color: #ffffff;
+}
+
+footer {
+  width: 100%;
+  background-color: #23415C;
+  padding: 5% 5% 10% 5%;
+  color: #ffffff;
+}
+
+.fab {
+  padding: 15px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.fab:hover {
+  color: #96d7ff;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .fab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
