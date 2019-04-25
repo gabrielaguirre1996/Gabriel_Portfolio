@@ -43,19 +43,6 @@ p {
   color: #ffffff;
 }
 
-.navbar {
-  display: inline-block;
-  font-size: 15px;
-  top: 0;
-  width: 100%;
-  position: fixed;
-}
-
-.navbar-default {
-  margin : 0 !important;
-  border: 0 !important;
-}
-
 .navbar-nav li a {
   color: #ffffff;
   font-family: 'Major Mono Display', monospace;
@@ -63,6 +50,11 @@ p {
 
 .navbar-nav li a:hover, .navbar-nav li a.active {
   color: #96d7ff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-family: 'Major Mono Display', monospace;
 }
 
 .landing-text {
