@@ -73,7 +73,7 @@ p {
 }
 
 #home {
-  background: url(images/wind.jpg) no-repeat center center fixed;
+  background: url(images/forest.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -82,7 +82,7 @@ p {
 }
 
 #separator1 {
-  background: url(images/sky.jpg) no-repeat center center fixed;
+  background: url(images/clouds.jpg) no-repeat center center fixed;
   display: table;
   height: 75%;
   position: relative;
@@ -91,7 +91,7 @@ p {
 }
 
 #separator2 {
-  background: url(images/mac.jpg) no-repeat center center fixed;
+  background: url(images/clouds2.jpg) no-repeat center center fixed;
   display: table;
   height: 75%;
   position: relative;
